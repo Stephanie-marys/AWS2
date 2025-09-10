@@ -16,15 +16,6 @@ Uma **stack** é um conjunto de recursos AWS definidos por um arquivo template (
 
 Crie um arquivo template em YAML ou JSON que descreva os recursos que deseja criar.
 
-**Exemplo simples (YAML) — cria um bucket S3:**
-
-```yaml
-Resources:
-  MeuBucketS3:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: meu-bucket-exemplo-123456
-
 ### 2. Acesse o Console AWS CloudFormation
 
 - Acesse o [Console da AWS](https://aws.amazon.com/console/).
@@ -69,3 +60,13 @@ Resources:
 - Vá ao console do serviço (ex: S3) para verificar os recursos provisionados.
 
 ---
+
+**Exemplo simples (YAML) — cria um bucket S3:**
+
+```yaml
+Resources:
+  MeuBucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: meu-bucket-exemplo-123456
+
